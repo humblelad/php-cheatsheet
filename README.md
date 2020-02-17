@@ -49,8 +49,37 @@ echo "Hello World !";
  %=      //modulus
  
  ```
+  ### Increment Operators
+ ```
+ ++$variable     //pre increment
+ --$variable     //pre decrement
+ $variable++     //post increment
+ $variable--    // post decrement
  
- 
+ ```
+  ### Logical Operators
+ ```
+ and    //true if both are true 
+ or    //true if only one is true
+ Xor   //true if either are true but not both are true
+ &&   //true if both are true
+ ||   //true if one is true
+ !    // true if it is not true
+ ```
+  ### IF statement
+ ```
+<?php
+if (cond) {
+//run this
+}
+```
+*Example*
+```
+if(2>1){
+echo "let me run please! ";
+}
+?>
+ ```
  
  
  
